@@ -5,8 +5,6 @@
   <!-- SEO相关 -->
   
     
-      <meta name="robots" content="noindex,follow">
-    
   
   <!-- 渲染优化 -->
   <meta name="renderer" content="webkit">
@@ -18,8 +16,13 @@
 
   <!-- 页面元数据 -->
   
-    <title>Category: 杂记 - Wei&#39;s blog</title>
+    <title>TCP三次握手与四次挥手 - Wei&#39;s blog</title>
   
+    <meta name="keywords" content="TCP/IP">
+  
+  
+    <meta name="description" content="1. 计算机网络模型体系结构计算机网络模型体系结构如图，TCP 属于运输层 (传输层) 的协议，传输层提供了进程间的逻辑通信，传输层向高层用户屏蔽了下面网络层的核心细节，使应用程序看起来像是在两个传输层实体之间有一条端到端的逻辑通信信道。
+">
   
 
   <!-- feed -->
@@ -331,25 +334,12 @@
     <div class='body-wrapper'>
       
 
-
 <div class='l_main'>
   
-    
-      
-  <section class="post-list ">
-    
-      
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <article class="post white-box shadow reveal ">
+
   
+    <article id="post" class="post white-box reveal shadow article-type-post" itemscope itemprop="blogPost">
+      
 
 
   <section class='meta'>
@@ -359,11 +349,11 @@
       <div class="meta" id="header-meta">
         
           
-  <h2 class="title">
-    <a href="/2020/07/03/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
-      Hexo常用命令
+  <h1 class="title">
+    <a href="/2020/07/03/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E4%B8%8E%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/">
+      TCP三次握手与四次挥手
     </a>
-  </h2>
+  </h1>
 
 
         
@@ -384,11 +374,29 @@
           
             
               
+  <div class="new-meta-item wordcount">
+    <a class='notlink'>
+      <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
+      <p>1.9k words</p>
+    </a>
+  </div>
+  <div class="new-meta-item readtime">
+    <a class='notlink'>
+      <i class="fas fa-hourglass-half fa-fw" aria-hidden="true"></i>
+      <p>6 min</p>
+    </a>
+  </div>
+
+
+            
+          
+            
+              
   
   <div class='new-meta-item category'>
-    <a href='/categories/%E6%9D%82%E8%AE%B0/' rel="nofollow">
+    <a href='/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/' rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>杂记</p>
+      <p>计算机网络</p>
     </a>
   </div>
 
@@ -407,24 +415,6 @@
           
             
               
-  <div class="new-meta-item wordcount">
-    <a class='notlink'>
-      <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>253 words</p>
-    </a>
-  </div>
-  <div class="new-meta-item readtime">
-    <a class='notlink'>
-      <i class="fas fa-hourglass-half fa-fw" aria-hidden="true"></i>
-      <p>1 min</p>
-    </a>
-  </div>
-
-
-            
-          
-            
-              
 
             
           
@@ -437,104 +427,95 @@
   </section>
 
 
-  <section class="article typo">
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="使用hexo写博客上传到GitHub的一些命令"><a href="#使用hexo写博客上传到GitHub的一些命令" class="headerlink" title="使用hexo写博客上传到GitHub的一些命令"></a>使用hexo写博客上传到GitHub的一些命令</h2><p><strong>常用命令</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span> <span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> <span class="comment">#新建页面</span></span><br><span class="line">hexo generate <span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server <span class="comment">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy <span class="comment">#部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>  <span class="comment"># 查看帮助</span></span><br><span class="line">hexo version  <span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
-      
-    </div>
-    
-      
-        <div class="button readmore">
-          <a href="/2020/07/03/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
-            阅读全文 <i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-      
-    
-  </section>
-</article>
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <h2 id="1-计算机网络模型体系结构"><a href="#1-计算机网络模型体系结构" class="headerlink" title="1. 计算机网络模型体系结构"></a>1. 计算机网络模型体系结构</h2><p>计算机网络模型体系结构如图，TCP 属于运输层 (传输层) 的协议，传输层提供了进程间的逻辑通信，传输层向高层用户屏蔽了下面网络层的核心细节，使应用程序看起来像是在两个传输层实体之间有一条端到端的逻辑通信信道。</p>
+<p><img src="https://i.loli.net/2020/07/02/EmJ2lRDGTeg9I8A.png" alt="计算机网络模型"></p>
+<a id="more"></a>
 
-          </div>
-        
-      
-    
-  </section>
+
+
+<h2 id="2-TCP-首部"><a href="#2-TCP-首部" class="headerlink" title="2. TCP 首部"></a>2. TCP 首部</h2><ul>
+<li><strong>序号</strong> ：用于对字节流进行编号，例如序号为 301，表示第一个字节的编号为 301，如果携带的数据长度为 100 字节，那么下一个报文段的序号应为 401。</li>
+<li><strong>确认号</strong> ：期望收到的下一个报文段的序号。例如 B 正确收到 A 发送来的一个报文段，序号为 501，携带的数据长度为 200 字节，因此 B 期望下一个报文段的序号为 701，B 发送给 A 的确认报文段中确认号就为 701。</li>
+<li><strong>数据偏移</strong> ：指的是数据部分距离报文段起始处的偏移量，实际上指的是首部的长度。</li>
+<li><strong>确认 ACK</strong> ：当 ACK=1 时确认号字段有效，否则无效。TCP 规定，在连接建立后所有传送的报文段都必须把 ACK 置 1。</li>
+<li><strong>同步 SYN</strong> ：在连接建立时用来同步序号。当 SYN=1，ACK=0 时表示这是一个连接请求报文段。若对方同意建立连接，则响应报文中 SYN=1，ACK=1。</li>
+<li><strong>终止 FIN</strong> ：用来释放一个连接，当 FIN=1 时，表示此报文段的发送方的数据已发送完毕，并要求释放连接。</li>
+<li><strong>窗口</strong> ：窗口值作为接收方让发送方设置其发送窗口的依据。之所以要有这个限制，是因为接收方的数据缓存空间是有限的。</li>
+</ul>
+<h2 id="3-TCP-三次握手"><a href="#3-TCP-三次握手" class="headerlink" title="3. TCP 三次握手"></a>3. TCP 三次握手</h2><p><img src="https://i.loli.net/2020/07/02/IQkuYTrGJ4nwaRf.png" alt="三次握手"></p>
+<ul>
+<li>B 的 TCP 服务器进程先创建<strong>传输控制块 TCB</strong>，服务器进程就处于 <strong>LISTEN (收听)</strong> 状态，准备接受客户进程的连接请求。</li>
+<li>A 的 TCP 服务器也是先创建<strong>传输控制块 TCB</strong>，然后向B发出连接请求报文段，这时首部中的同步位 <strong>SYN=1</strong>，同时选择一个初始序号 <strong>seq=x</strong>。TCP 规定，SYN=1 的报文段不能携带数据，但消耗掉一个序号。这时 TCP 客户端进程进入 <strong>SYN-SENT (同步已发送) 状态</strong>。</li>
+<li>B 收到连接请求报文段后，如同意建立连接，则向A发送确认。在确认报文段中应把 <strong>SYN</strong> 位和 <strong>ACK</strong> 位都置1。确认号是 <strong>ack=x+1</strong>。同时也为自己选择个初始序号 <strong>seq=y</strong>。请注意，这个报文段也不能携带数据，但同样要消耗掉个一序号。 这时TCP服务器进程进入 <strong>SYN-RCVD (同步收到) 状志</strong>。</li>
+<li>TCP 客户进程收到 B 的确认后，还要向 B 给出确认。确认报文段的 <strong>ACK</strong> 置1。确认号 <strong>ack=y+1</strong>，而自己的序号 <strong>seq=x+1</strong>。 TCP 的标准规定，<strong>ACK报文段可以携带数据。但如果不携带数据则不消耗序号</strong>，在这种情况下，下一个数据报文段的序号仍是 <strong>seq=x+1</strong>。这时，TCP连接已经建立，A 进入 <strong>ESTABLISHED (已建立连接)状志</strong>。</li>
+<li>当B收到A的确认后，也进入 <strong>ESTABLISHED状态</strong>。</li>
+</ul>
+<p><strong>三次握手的原因：</strong></p>
+<p>为什么 A 还要发送次确认呢？这主要是为了防止 “已失效的请求报文段” 突然又传送到了 B，因而产生错误。</p>
+<ul>
+<li>考虑一种正常情况，A 发出连接请求，但因连接请求报文丢失而未收到确认，于是 A 再重传一次连接请求。后来收到了确认，建立连接。A 一共发送了两个连接请求报文段，其中第一个丢失，第二个到达了B，没有 “已失效的连接请求报文段”。</li>
+<li>现假定一种异常情况，即 A 发出的第一个连接请求报文段没有丢失，而是在某些网络节点长时间滞留了，以致延误到连接释放后的某个时间才到达B。本来这事一个早已失效的报文段，但是 B 收到此失效的报文段后，就误认为是 A 又发出了依次新的连接请求。于是向 A 发出确认报文段，同意建立连接。假定不采用三次握手，那么只要 B 发出确认，新的连接就建立了。可是 A 并没有建立连接的请求，因此不会理财 B 的确认，也不会向 B 发送数据，但 B 确认为新的连接建立了，一直等待 A 发数据。B 的很多资源就这样白白浪费了。</li>
+<li>采用三次握手可以防止上述现象的发生。例如在刚才的情况下，A 不会向 B 的确认发出确认。B 由于收不到确认，就知道 A 并没有要求建立连接。</li>
+</ul>
+<h2 id="4-TCP-四次挥手"><a href="#4-TCP-四次挥手" class="headerlink" title="4. TCP 四次挥手"></a>4. TCP 四次挥手</h2><p><img src="https://i.loli.net/2020/07/02/Tv4OCpH52RAt3Jr.png" alt="四次挥手"></p>
+<ul>
+<li>A 发送连接释放报文，<strong>FIN=1，seq=u</strong>，它等于前面已经传送过的数据的最后一个字节的序号加1。这时 A 进入 <strong>FIN-WAIT-1 (终止等待 1) 状态</strong>，等待 B 的确认。</li>
+<li>B 收到之后发出确认，确认号 <strong>ack=u+1</strong>，然后B进入 <strong>CLOSED-WAIT (关闭等待) 状态</strong>，B 能向 A 发送数据但是 A 不能向 B 发送数据。</li>
+<li>当 B 已经没有要向 A 发送的数据，其应用进程就通知 TCP 释放连接。发送连接释放报文，<strong>FIN=1，seq=w</strong> (在半关闭状态可能又法了一些数据)，重复确认后 <strong>ack=u+1</strong>，B 进入 <strong>LAST-ACK (最后确认) 状态</strong>。</li>
+<li>A 收到 B 的确认后发出确认，<strong>ack=w+1，seq=u+1</strong>，然后进入 <strong>TIME-WAIT (时间等待) 状态</strong>，等待 2 MSL（最大报文存活时间）后释放连接。</li>
+<li>B 收到 A 的确认后释放连接。</li>
+</ul>
+<p><strong>四次挥手的原因</strong></p>
+<p>客户端发送了 FIN 连接释放报文之后，服务器收到了这个报文，就进入了 CLOSE-WAIT 状态。这个状态是为了让服务器端发送还未传送完毕的数据，传送完毕之后，服务器会发送 FIN 连接释放报文。</p>
+<p><strong>TIME_WAIT 状态必须等待 2MSL 的原因：</strong></p>
+<p>客户端接收到服务器端的 FIN 报文后进入此状态，此时并不是直接进入 CLOSED 状态，还需要等待一个时间计时器设置的时间 2MSL。这么做有两个理由：</p>
+<ul>
+<li>确保 A 发送的最后一个 <strong>ACK 报文段</strong>能够到达 B 。这个 <strong>ACK 报文段</strong>有可能丢失，因而使处在<strong>LAST-ACK</strong>状态的B 收不到 <strong>ACK 报文段</strong>，那么这时 B 会重发 <strong>FIN+ACK报文段</strong>，而 A 就能在 2MSL的时间内收到然后再重发  如果 B 没收到 A 发送来的确认报文，那么就会重新发送连接释放请求报文，A 等待一段时间就是为了处理这种情况的发生。</li>
+<li>防止 “已失效的请求报文段” 突然出现再连接中，等待一段时间是为了让本连接持续时间内所产生的所有报文都从网络中消失，使得下一个新的连接不会出现旧的连接请求报文。</li>
+</ul>
+
+          
+            <div class='article_footer'>
+              
+                
   
     
-    <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
     
-    
+
+
 
   
 
-
-    
-  
-
-</div>
-<aside class='l_side'>
-  
   
     
     
 
-<section class="widget blogger shadow desktop mobile">
+
+
+  
+
+  
+    
+    
+
+<section class="widget copyright  desktop mobile">
   <div class='content'>
     
-      
-        <a class='avatar flat-box' href='/about/'>
-          <img no-lazy src='https://imgkr.cn-bj.ufileos.com/718f65c8-3991-4e95-bf0a-d512c52de1db.jpg'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">Wei's blog</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
+      <blockquote>
         
           
-            <a href="mailto:pwlwell@163.com"
-              class="social fas fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
+            <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
+
           
         
           
-            <a href="https://blog.csdn.net/pwlwell"
-              class="social fas fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
+            <p>本文永久链接是：<a href=http://yoursite.com/2020/07/03/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E4%B8%8E%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/>http://yoursite.com/2020/07/03/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E4%B8%8E%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</a></p>
           
         
-          
-            <a href="https://github.com/weipapa"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-          
-            <a href="https://music.163.com/playlist?id=2419157431&userid=285640888"
-              class="social fas fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-      </div>
+      </blockquote>
     
   </div>
 </section>
@@ -544,63 +525,204 @@
   
     
     
+
+<section class="widget qrcode  desktop mobile">
   
 
-  <section class="widget category shadow desktop">
+  <div class='content article-entry'>
+    
+      
+        <div class='fancybox'><img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png'
+        
+          height='64px'
+        ></div>
+      
+    
+      
+        <div class='fancybox'><img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png'
+        
+          height='64px'
+        ></div>
+      
+    
+  </div>
+</section>
+
+  
+
+
+              
+            </div>
+          
+        </div>
+        
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-07-03T11:32:31+08:00">
+  <a class='notlink'>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：Jul 3, 2020</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/TCP-IP/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>TCP/IP</p></a></div>
+
+
+        
+      
+        
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer"
+          
+          href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2020/07/03/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E4%B8%8E%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/&title=TCP三次握手与四次挥手 - Wei's blog&summary=1. 计算机网络模型体系结构计算机网络模型体系结构如图，TCP 属于运输层 (传输层) 的协议，传输层提供了进程间的逻辑通信，传输层向高层用户屏蔽了下面网络层的核心细节，使应用程序看起来像是在两个传输层实体之间有一条端到端的逻辑通信信道。
+"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer"
+          
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://yoursite.com/2020/07/03/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E4%B8%8E%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/&title=TCP三次握手与四次挥手 - Wei's blog&summary=1. 计算机网络模型体系结构计算机网络模型体系结构如图，TCP 属于运输层 (传输层) 的协议，传输层提供了进程间的逻辑通信，传输层向高层用户屏蔽了下面网络层的核心细节，使应用程序看起来像是在两个传输层实体之间有一条端到端的逻辑通信信道。
+"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer"
+          
+          href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2020/07/03/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E4%B8%8E%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/&title=TCP三次握手与四次挥手 - Wei's blog&summary=1. 计算机网络模型体系结构计算机网络模型体系结构如图，TCP 属于运输层 (传输层) 的协议，传输层提供了进程间的逻辑通信，传输层向高层用户屏蔽了下面网络层的核心细节，使应用程序看起来像是在两个传输层实体之间有一条端到端的逻辑通信信道。
+"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png">
+          
+        </a>
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+          <div class="prev-next">
+            
+            
+              <a class='next' href='/2020/07/03/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/'>
+                <p class='title'>Hexo常用命令<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+                <p class='content'>使用hexo写博客上传到GitHub的一些命令常用命令
+1234567hexo new "postName" #新建文章hexo new page "pageName" #新建页面hexo ge...</p>
+              </a>
+            
+          </div>
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+
+
+
+  <article class="post white-box reveal comments shadow">
+    <section class="article typo">
+      <p ct><i class='fas fa-comments'></i> 评论</p>
+      
+      
+      
+      
+      
+      
+        <section id="comments">
+          <div id="valine_container" class="valine_thread">
+            <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+          </div>
+        </section>
+      
+      
+    </section>
+  </article>
+
+
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+
+
+  <script>
+    window.subData = {
+      title: 'TCP三次握手与四次挥手',
+      tools: true
+    }
+  </script>
+
+
+</div>
+<aside class='l_side'>
+  
+  
+
+  
+    
+    
+
+
+  <section class="widget toc-wrapper shadow desktop mobile">
     
   <header>
     
-      <a href='/blog/categories/'><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
     
   </header>
 
 
     <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/Java/" href="/categories/Java/"
-            id="categoriesJava"
-            ><div class='name'>Java</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%A4%87%E5%BF%98/" href="/categories/%E5%A4%87%E5%BF%98/"
-            id="categoriesE5A487E5BF98"
-            ><div class='name'>备忘</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%9D%82%E8%AE%B0/" href="/categories/%E6%9D%82%E8%AE%B0/"
-            id="categoriesE69D82E8AEB0"
-            ><div class='name'>杂记</div><div class='badge'>(1)</div></a></li>
-        
-      </ul>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-计算机网络模型体系结构"><span class="toc-text">1. 计算机网络模型体系结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-TCP-首部"><span class="toc-text">2. TCP 首部</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-TCP-三次握手"><span class="toc-text">3. TCP 三次握手</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-TCP-四次挥手"><span class="toc-text">4. TCP 四次挥手</span></a></li></ol>
     </div>
   </section>
 
-
-  
-
-  
-    
-    
-  
-
-  <section class="widget tagcloud shadow desktop mobile">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/GitHub/" style="font-size: 14px; color: #999">GitHub</a> <a href="/tags/Hexo/" style="font-size: 14px; color: #999">Hexo</a> <a href="/tags/JVM/" style="font-size: 14px; color: #999">JVM</a> <a href="/tags/Spring/" style="font-size: 14px; color: #999">Spring</a> <a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" style="font-size: 14px; color: #999">科学上网</a>
-    </div>
-  </section>
-
-
-  
 
   
 
@@ -830,6 +952,60 @@
 
 
 
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"></script>
+
+  
+  <script>
+  var GUEST_INFO = ['nick','mail','link'];
+  var meta = 'nick,mail,link'.split(',').filter(function(item){
+    return GUEST_INFO.indexOf(item) > -1
+  });
+  var REQUIRED_FIELDS = ['nick','mail','link'];
+  var requiredFields = 'nick,mail'.split(',').filter(function(item){
+    return REQUIRED_FIELDS.indexOf(item) > -1
+  });
+  var valine = new Valine();
+  function emoji(path, idx, ext) {
+      return path + "/" + path + "-" + idx + "." + ext;
+  }
+  var emojiMaps = {};
+  for (var i = 1; i <= 54; i++) {
+    emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+  }
+  for (var i = 1; i <= 101; i++) {
+    emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+  }
+  for (var i = 1; i <= 116; i++) {
+    emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+  }
+  for (var i = 1; i <= 125; i++) {
+    emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+  }
+  for (var i = 1; i <= 4; i++) {
+    emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+  }
+  valine.init({
+    el: '#valine_container',
+    meta: meta,
+    
+    appId: "cc3sVj0SvHVrXPMNEYKyctrl-gzGzoHsz",
+    appKey: "lauosFjQpNNyLP7zkvniB241",
+    placeholder: "快来评论吧~",
+    pageSize:'10',
+    avatar:'robohash',
+    lang:'zh-cn',
+    visitor: 'true',
+    highlight: 'true',
+    mathJax: 'false',
+    enableQQ: 'true',
+    requiredFields: requiredFields,
+    emojiCDN: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/',
+    emojiMaps: emojiMaps
+  })
+  </script>
 
 
 
