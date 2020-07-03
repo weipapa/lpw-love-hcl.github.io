@@ -21,6 +21,10 @@
     <meta name="keywords" content="JVM">
   
   
+    <meta name="description" content="[TOC]
+1. Java内存区域详解Java虚拟机主要有一下几部分组成
+">
+  
 
   <!-- feed -->
   
@@ -430,8 +434,12 @@
           <p>[TOC]</p>
 <h1 id="1-Java内存区域详解"><a href="#1-Java内存区域详解" class="headerlink" title="1. Java内存区域详解"></a>1. Java内存区域详解</h1><p>Java虚拟机主要有一下几部分组成</p>
 <p><img src="https://cdn.jsdelivr.net/gh/weipapa/ImageHouse/weipapa-img/20200629153212.jpg" alt=""></p>
+<a id="more"></a>
+
+
+
 <p>下面以一张图详细解释每部分的组成</p>
-<p><img src="C:%5CUsers%5CWEI%5CDesktop%5C%E7%AC%94%E8%AE%B0%5CJVM%5Cimages%5CMQ2.jpg" alt="MQ2"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/weipapa/ImageHouse/weipapa-img/20200703111639.jpg" alt="MQ2"></p>
 <h2 id="1-1-程序计数器"><a href="#1-1-程序计数器" class="headerlink" title="1.1 程序计数器"></a>1.1 程序计数器</h2><p>程序计数器是一块较小的内存空间，可以看作是当前线程所执行的字节码的行号指示器。<strong>字节码解释器工作时通过改变这个计数器的值来选取下一条需要执行的字节码指令，分支、循环、跳转、异常处理、线程恢复等功能都需要依赖这个计数器来完成。</strong></p>
 <p>另外，<strong>为了线程切换后能恢复到正确的执行位置，每条线程都需要有一个独立的程序计数器，各线程之间计数器互不影响，独立存储，我们称这类内存区域为“线程私有”的内存。</strong></p>
 <p><strong>从上面的介绍中我们知道程序计数器主要有两个作用：</strong></p>
@@ -650,7 +658,7 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-07-03T11:14:08+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-07-03T11:17:13+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：Jul 3, 2020</p>
@@ -680,7 +688,9 @@
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2020/07/03/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/&title=Java内存区域 - Wei's blog&summary="
+          href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2020/07/03/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/&title=Java内存区域 - Wei's blog&summary=[TOC]
+1. Java内存区域详解Java虚拟机主要有一下几部分组成
+"
           
           >
           
@@ -692,7 +702,9 @@
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://yoursite.com/2020/07/03/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/&title=Java内存区域 - Wei's blog&summary="
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://yoursite.com/2020/07/03/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/&title=Java内存区域 - Wei's blog&summary=[TOC]
+1. Java内存区域详解Java虚拟机主要有一下几部分组成
+"
           
           >
           
@@ -704,7 +716,9 @@
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2020/07/03/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/&title=Java内存区域 - Wei's blog&summary="
+          href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2020/07/03/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/&title=Java内存区域 - Wei's blog&summary=[TOC]
+1. Java内存区域详解Java虚拟机主要有一下几部分组成
+"
           
           >
           
